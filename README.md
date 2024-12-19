@@ -13,22 +13,8 @@ tags:
 - code
 
 ---
-license: mit
-datasets:
-- Canstralian/ShellCommands
-- Canstralian/CyberExploitDB
-language:
-- en
-base_model:
-- WhiteRabbitNeo/WhiteRabbitNeo-13B-v1
-- replit/replit-code-v1_5-3b
-library_name: transformers
-tags:
-- code
----
-# Model Card for Model ID
 
-<!-- Provide a quick summary of what the model is/does. -->
+# Model Card for Model ID
 
 This model card aims to document the capabilities, performance, and intended usage of models fine-tuned for cybersecurity tasks, including shell command parsing and cyber exploit detection. It is based on the underlying models WhiteRabbitNeo-13B-v1 and replit-code-v1_5-3b, fine-tuned on datasets related to shell commands and exploit databases.
 
@@ -38,19 +24,11 @@ This model card aims to document the capabilities, performance, and intended usa
 
 This model is a fine-tuned version of large-scale language models optimized for tasks such as parsing shell commands and analyzing cybersecurity exploits. The training leverages datasets such as Canstralian/ShellCommands and Canstralian/CyberExploitDB to provide domain-specific knowledge.
 
-- **Developed by:** Canstralian (more details needed)
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
+- **Developed by:** Canstralian 
 - **Model type:** Transformer-based Language Model for cybersecurity applications
 - **Language(s) (NLP):** English (en)
 - **License:** MIT
-- **Finetuned from model [optional]:** WhiteRabbitNeo/WhiteRabbitNeo-13B-v1, replit/replit-code-v1_5-3b
-
-### Model Sources [optional]
-
-- **Repository:** [Add model repository URL here]
-- **Paper [optional]:** [Link to relevant research paper]
-- **Demo [optional]:** [Link to model demo or interface]
+- **Finetuned from model:** WhiteRabbitNeo/WhiteRabbitNeo-13B-v1, replit/replit-code-v1_5-3b
 
 ## Uses
 
@@ -61,7 +39,7 @@ The model is intended to be used directly for tasks like:
 - Analyzing and classifying cybersecurity exploit patterns
 - Assisting with code generation and debugging in a cybersecurity context
 
-### Downstream Use [optional]
+### Downstream Use 
 
 When fine-tuned further, the model can be applied to:
 - Automated incident response systems
@@ -112,19 +90,13 @@ Further details on the preprocessing of these datasets can be found in their res
 
 ### Training Procedure
 
-#### Preprocessing [optional]
+#### Preprocessing 
 
 The data was preprocessed to remove any sensitive or personally identifiable information. Text normalization and tokenization were applied to ensure consistency across the datasets.
 
 #### Training Hyperparameters
 
 - **Training regime:** fp16 mixed precision
-
-#### Speeds, Sizes, Times [optional]
-
-- **Training time:** [More Information Needed]
-- **Model size:** [More Information Needed]
-- **Dataset size:** [More Information Needed]
 
 ## Evaluation
 
@@ -169,36 +141,6 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 - **Cloud Provider:** [More Information Needed]
 - **Compute Region:** [More Information Needed]
 - **Carbon Emitted:** [More Information Needed]
-
-## Technical Specifications [optional]
-
-### Model Architecture and Objective
-
-This model utilizes transformer-based architecture with a focus on optimizing the understanding of shell commands and cybersecurity exploits.
-
-### Compute Infrastructure
-
-The model was trained on [specify hardware and infrastructure used, e.g., GPUs, TPUs, cloud services].
-
-#### Hardware
-
-- [More Information Needed]
-
-#### Software
-
-- [More Information Needed]
-
-## Citation [optional]
-
-If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section.
-
-**BibTeX:**
-
-[More Information Needed]
-
-**APA:**
-
-[More Information Needed]
 
 ## Glossary [optional]
 
